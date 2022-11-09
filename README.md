@@ -1,11 +1,11 @@
-# °øºÎÇÏ´Ù°¡ ±Ã±İÇÑ °Íµé Á¤¸® ÇØº¸´Â ¿ëµµ
+# ê³µë¶€í•˜ë‹¤ê°€ ê¶ê¸ˆí•œ ê²ƒë“¤ ì •ë¦¬ í•´ë³´ëŠ” ìš©ë„
 
-## Markdown ¹®¹ı
-* [ÀÍÈ÷±â](https://www.markdowntutorial.com/kr/)
+## Markdown ë¬¸ë²•
+* [ìµíˆê¸°](https://www.markdowntutorial.com/kr/)
 
 ## JAVA
-* [public class¿Í ±×³É class ÀÇ Â÷ÀÌ1](https://stackoverflow.com/questions/16779245/what-is-the-difference-between-public-class-and-just-class)
-* [public class¿Í ±×³É class ÀÇ Â÷ÀÌ2](https://stackoverflow.com/questions/215497/what-is-the-difference-between-public-protected-package-private-and-private-in)
+* [public classì™€ ê·¸ëƒ¥ class ì˜ ì°¨ì´1](https://stackoverflow.com/questions/16779245/what-is-the-difference-between-public-class-and-just-class)
+* [public classì™€ ê·¸ëƒ¥ class ì˜ ì°¨ì´2](https://stackoverflow.com/questions/215497/what-is-the-difference-between-public-protected-package-private-and-private-in)
 
 |Modifier|Class|Package|Subclass(same pkg)|Subclass(diff pkg)|World|
 |---|---|---|---|---|---|
@@ -14,25 +14,25 @@
 |*no modifier*|Y|Y|Y|N|N|
 |private|Y|N|N|N|N|
 
-* [static Å¬·¡½ºÀÇ ¾²ÀÓ»õ](https://stackoverflow.com/questions/7486012/static-classes-in-java)
-  * [Ex: Math classÀÇ PI, E](https://hg.openjdk.java.net/jdk/jdk11/file/1ddf9a99e4ad/src/java.base/share/classes/java/lang/Math.java)
+* [static í´ë˜ìŠ¤ì˜ ì“°ì„ìƒˆ](https://stackoverflow.com/questions/7486012/static-classes-in-java)
+  * [Ex: Math classì˜ PI, E](https://hg.openjdk.java.net/jdk/jdk11/file/1ddf9a99e4ad/src/java.base/share/classes/java/lang/Math.java)
   ```
   // import java.lang.Math;
   public static final double E = 2.718281828459045;
   public static final double PI = 3.141592653589793;
   ```
 
-* [JavaÀÇ main ¸Ş¼ÒµåÀÇ ÀÇ¹Ì(public, static)](https://stackoverflow.com/questions/52803874/please-explain-every-element-of-java-main-public-static-void-mainstring-arg)
+* [Javaì˜ main ë©”ì†Œë“œì˜ ì˜ë¯¸(public, static)](https://stackoverflow.com/questions/52803874/please-explain-every-element-of-java-main-public-static-void-mainstring-arg)
 ```
-public : ÄÜ¼Ö¿¡¼­ Á¢±ÙÇÒ ¼ö ÀÖ°Ô
-static : ÇÁ·Î±×·¥ ½ÇÇà½Ã ¹Ù·Î ¸Ş¸ğ¸®¿¡ ÇÒ´çÇÏ±â À§ÇØ¼­
-void : ¹İÈ¯°ªÀÌ ¾ø´Â
-main : main ÀÌ¸§
+public : ì½˜ì†”ì—ì„œ ì ‘ê·¼í•  ìˆ˜ ìˆê²Œ
+static : í”„ë¡œê·¸ë¨ ì‹¤í–‰ì‹œ ë°”ë¡œ ë©”ëª¨ë¦¬ì— í• ë‹¹í•˜ê¸° ìœ„í•´ì„œ
+void : ë°˜í™˜ê°’ì´ ì—†ëŠ”
+main : main ì´ë¦„
 ```
 
-* String Å¬·¡½º¸¦ ÀÌ¿ëÇØ¼­ ¹®ÀÚ¿­ °áÇÕÀ» ÇÒ ¶§ ¹®ÀÚ¿­ ÀÎ½ºÅÏ½º°¡ °è¼ÓÇØ¼­ »ı°Ü³ª´Â °ÍÀº ¹Ù¶÷Á÷ÇÑ Çö»óÀÌ ¾Æ´Ï´Ù! µû¶ó¼­ ÀÌ °æ¿ì¿¡´Â ¹®ÀÚ¿­ ÀÎ½ºÅÏ½º »ı¼ºÀ» ÃÖ¼ÒÈ­ÇØ°¡¸ç ¹®ÀÚ¿­À» °áÇÕÇÒ ¼ö ÀÖµµ·Ï StringBuilder Å¬·¡½º¸¦ »ç¿ëÇÏ´Â °ÍÀÌ ÁÁ´Ù!
+* String í´ë˜ìŠ¤ë¥¼ ì´ìš©í•´ì„œ ë¬¸ìì—´ ê²°í•©ì„ í•  ë•Œ ë¬¸ìì—´ ì¸ìŠ¤í„´ìŠ¤ê°€ ê³„ì†í•´ì„œ ìƒê²¨ë‚˜ëŠ” ê²ƒì€ ë°”ëŒì§í•œ í˜„ìƒì´ ì•„ë‹ˆë‹¤! ë”°ë¼ì„œ ì´ ê²½ìš°ì—ëŠ” ë¬¸ìì—´ ì¸ìŠ¤í„´ìŠ¤ ìƒì„±ì„ ìµœì†Œí™”í•´ê°€ë©° ë¬¸ìì—´ì„ ê²°í•©í•  ìˆ˜ ìˆë„ë¡ StringBuilder í´ë˜ìŠ¤ë¥¼ ì‚¬ìš©í•˜ëŠ” ê²ƒì´ ì¢‹ë‹¤!
 
-* [StringBuffer¿Í StringBuilderÀÇ Â÷ÀÌ
+* [StringBufferì™€ StringBuilderì˜ ì°¨ì´
 ](https://stackoverflow.com/questions/355089/difference-between-stringbuilder-and-stringbuffer)
 ```
 package note;
@@ -63,41 +63,47 @@ public class Foo {
 }
 ```
 ```
-±âº»ÀûÀ¸·Î ¼ÓµµÀÇ Â÷ÀÌ°¡ ÀÖ°í, ½º·¹µå¿¡¼­ µ¹¾Æ°¡´Â°¡ ¾Æ´Ñ°¡ÀÇ Â÷ÀÌ°¡ ÀÖ´Ù.
+ê¸°ë³¸ì ìœ¼ë¡œ ì†ë„ì˜ ì°¨ì´ê°€ ìˆê³ , ìŠ¤ë ˆë“œì—ì„œ ëŒì•„ê°€ëŠ”ê°€ ì•„ë‹Œê°€ì˜ ì°¨ì´ê°€ ìˆë‹¤.
 1149
 84
 ```
 
-* [@Override ¾î³ëÅ×ÀÌ¼Ç](https://velog.io/@pearl0725/Override-%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98%EC%9D%98-%EC%9D%98%EB%AF%B8%EC%99%80-%EC%82%AC%EC%9A%A9-%EC%9D%B4%EC%9C%A0%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C)
+* [@Override ì–´ë…¸í…Œì´ì…˜](https://velog.io/@pearl0725/Override-%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98%EC%9D%98-%EC%9D%98%EB%AF%B8%EC%99%80-%EC%82%AC%EC%9A%A9-%EC%9D%B4%EC%9C%A0%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C)
 
-* [int[] array¿Í int array[]ÀÇ Â÷ÀÌ](https://stackoverflow.com/questions/129178/difference-between-int-array-and-int-array)
+* [int[] arrayì™€ int array[]ì˜ ì°¨ì´](https://stackoverflow.com/questions/129178/difference-between-int-array-and-int-array)
 ```
 int[] foo, bar; // foo, bar = array
 int foo[], bar; // foo = array, bar = int
 ```
 
-* [ÀÚÁÖ Çò°¥¸± ¼ö ÀÖ´Â °Í : ¿À¹ö·Îµù vs ¿À¹ö¶óÀÌµù](https://stackoverflow.com/questions/154577/polymorphism-vs-overriding-vs-overloading)
+* [ìì£¼ í—·ê°ˆë¦´ ìˆ˜ ìˆëŠ” ê²ƒ : ì˜¤ë²„ë¡œë”© vs ì˜¤ë²„ë¼ì´ë”©](https://stackoverflow.com/questions/154577/polymorphism-vs-overriding-vs-overloading)
 ```
-¿À¹ö·Îµù : ¸Å°³º¯¼ö°¡ ´Ù¸¥ °Í
-¿À¹ö¶óÀÌµù : ºÎ¸ğÅ¬·¡½ºÀÇ ¸Ş¼Òµå¿Í °°Àº ÀÌ¸§ÀÇ ¸Ş¼Òµå¸¦ ÀçÁ¤ÀÇÇÏ¿© ¾²´Â °Í
-```
-
-* [ÀÚ¹Ù¿¡¼­ super.super.method()°¡ Çã¿ë µÇÁö ¾Ê´Â ÀÌÀ¯](https://stackoverflow.com/questions/586363/why-is-super-super-method-not-allowed-in-java)
-```
-Ä¸½¶È­
+ì˜¤ë²„ë¡œë”© : ë§¤ê°œë³€ìˆ˜ê°€ ë‹¤ë¥¸ ê²ƒ
+ì˜¤ë²„ë¼ì´ë”© : ë¶€ëª¨í´ë˜ìŠ¤ì˜ ë©”ì†Œë“œì™€ ê°™ì€ ì´ë¦„ì˜ ë©”ì†Œë“œë¥¼ ì¬ì •ì˜í•˜ì—¬ ì“°ëŠ” ê²ƒ
 ```
 
-* [abstract interface ¾²´Â ÀÌÀ¯](https://stackoverflow.com/questions/7202616/java-abstract-interface)
+* [ìë°”ì—ì„œ super.super.method()ê°€ í—ˆìš© ë˜ì§€ ì•ŠëŠ” ì´ìœ ](https://stackoverflow.com/questions/586363/why-is-super-super-method-not-allowed-in-java)
+```
+ìº¡ìŠí™”
+```
 
-* [interface ¿Í abstract class ÀÇ Â÷ÀÌ](https://stackoverflow.com/questions/1913098/what-is-the-difference-between-an-interface-and-abstract-class/1913185#1913185)
+* [abstract interface ì“°ëŠ” ì´ìœ ](https://stackoverflow.com/questions/7202616/java-abstract-interface)
 
-* [¸Ş¸ğ¸® ¿µ¿ª 1](https://docs.oracle.com/javase/specs/jvms/se15/html/jvms-2.html#jvms-2.5.4)
+* [interface ì™€ abstract class ì˜ ì°¨ì´](https://stackoverflow.com/questions/1913098/what-is-the-difference-between-an-interface-and-abstract-class/1913185#1913185)
 
-* [¸Ş¸ğ¸® ¿µ¿ª 2](https://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap?page=1&tab=scoredesc#tab-top)
+* [ë©”ëª¨ë¦¬ ì˜ì—­ 1](https://docs.oracle.com/javase/specs/jvms/se15/html/jvms-2.html#jvms-2.5.4)
 
+* [ë©”ëª¨ë¦¬ ì˜ì—­ 2](https://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap?page=1&tab=scoredesc#tab-top)
+
+## Web ë¶ë§ˆí¬
+* [html, css cheatsheet](https://docs.emmet.io/cheat-sheet/)
+
+* [ì›¹ ê¸°ì´ˆ](https://w3schools.com/)
+
+* [Mozilla Developer Network](https://developer.mozilla.org/ko/)
 
 ## PS/CP
 * [Tip](https://cses.fi/book/book.pdf)
-* [¤·¤·](https://drive.google.com/file/d/1J2x8pIYQ3MXANgvzOgBciWd3d79j_Exa/view)
+* [ã…‡ã…‡](https://drive.google.com/file/d/1J2x8pIYQ3MXANgvzOgBciWd3d79j_Exa/view)
 * [USACO GUIDE](https://usaco.guide/)
-* [´ñ±Û Âü°í](https://codeforces.com/blog/entry/85668)
+* [ëŒ“ê¸€ ì°¸ê³ ](https://codeforces.com/blog/entry/85668)
